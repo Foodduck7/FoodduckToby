@@ -273,7 +273,7 @@ throws Exception을 무분별하게 사용하면 어떤 문제가 발생할 수 
 ### 2. 예외의 종류
 Checked Exception과 Unchecked Exception의 차이점은?<br>
 대표적인 RuntimeException의 예시와 이를 방지할 수 있는 코드 작성법은?
-
+     
 ### 3. 효과적인 예외 처리 방법
 예외 복구를 구현할 때 고려해야 할 요소는 무엇인가?<br>
 예외 회피와 예외 전환을 비교하고, 각각의 장점과 단점은?
