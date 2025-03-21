@@ -72,7 +72,8 @@ DefaultTransactionDefinition이 구현하고 있는 `TransactionDefinition 인�
 
 또한 엑세스 기술에 따라 성능이 향상될 수 있다. 
 
-> ### 💬 GetMapping의 경우 read-only를 했을 때 성능이 향상된다고 했었는데 정확한 이유를 모르겠다. 
+> ### 💬 GetMapping의 경우 read-only를 했을 때 성능이 향상된다고 했었는데 정확한 이유를 모르겠다.
+>  ➡️ 플러쉬, Dirty Checking 등의 작업을 하지 않아도 되기 때문에 성능이 향상될 수 있다. 
 
 
 <br>
