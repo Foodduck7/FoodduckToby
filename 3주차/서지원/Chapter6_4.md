@@ -44,3 +44,20 @@
 
 
 > 💡 `@Rollback`은 **메소드 레벨에서만 가능**하기 때문에 <ins>전체적으로 롤백의 속성 부여를 원한다면 @TransactionalConfiguration을 사용</ins>한다. 
+
+
+<br>
+
+### 선언적 트랜잭션과 트랜잭션 전파 속성
+
+#### 선언적 트랜잭션
+AOP를 이용해 코드 외부에서 트랜잭션의 기능을 부여해주고 <ins>**속성을 지정할 수 있게 하는 방법**</ins>
+
+**ex> @Transactional** 
+
+<br>
+
+#### 프로그램에 의한 트랜잭션
+TransactionTemplate OR 개별 데이터 기술의 트랜잭션 API를 사용해 코드 안에서 사용하는 방법
+
+**ex> JDBC, EntityManager와 EntityTransaction를 이용한 트랜잭션**
